@@ -19,5 +19,5 @@ That is Designed with Repository Pattern and Create Database & Generated Tables 
                 that is shared in both shell & detail-user app.
   
 
-both of them is  provided for enfi test.
+both of them is  provided for zenfi test.
 
