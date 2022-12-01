@@ -1,0 +1,44 @@
+<ng-container>
+    <form (ngSubmit)="OnSubmit(f)" #f="ngForm">
+      <div class="grid">        
+        <div style="width: 100%;"  >
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              {{resultpost}}
+            </div>
+
+            <div class="col-span-3">
+              <mat-form-field appearance="outline" class="w-11/12">
+                <mat-label >full Name:</mat-label>
+                <input matInput required [(ngModel)]="model.fullName" name="fullName" [formControl]="titleFormControl">              
+                <mat-error *ngIf="titleFormControl.hasError('required')"> it is required </mat-error>
+              </mat-form-field>     
+            </div>
+
+            <div class="col-span-3">
+              <mat-form-field appearance="outline" class="w-11/12">
+                <mat-label >Email:</mat-label>
+                <input matInput required [(ngModel)]="model.email" name="email" [formControl]="emailFormControl">              
+                <mat-error *ngIf="emailFormControl.hasError('required')"> it is required </mat-error>
+                <mat-error *ngIf="emailFormControl.hasError('email')"> please correct Email Format </mat-error>
+              </mat-form-field>   
+            </div>
+
+            <div class="col-span-3">
+              <button  type="submit"  > Save  </button>
+             
+              <button  type="button" (click)="backToList()"  > back to list  </button>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </form>
+  </ng-container>
+  
+  
+  
+  
+  
+  
+  
+  
