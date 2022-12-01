@@ -20,6 +20,7 @@ That is Designed with Repository Pattern and Create Database & Generated Tables 
   
 
 For Running App Test
+
         A terminal to run C#.net api & shell(main) angular app with this command 'dotnet run'.
         
         A Terminal to run second Angular app detail-user run with this Command 'ng serve detail-user --o --port 3000'.
