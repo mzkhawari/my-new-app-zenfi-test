@@ -19,5 +19,10 @@ That is Designed with Repository Pattern and Create Database & Generated Tables 
                 that is shared in both shell & detail-user app.
   
 
-both of them is  provided for zenfi test.
+For Running App Test
+        A terminal to run C#.net api & shell(main) angular app with this command 'dotnet run'.
+        
+        A Terminal to run second Angular app detail-user run with this Command 'ng serve detail-user --o --port 3000'.
+        
+        to running Complete, you Should run both Command in seperate terminal. 
 
